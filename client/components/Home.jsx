@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-
+import SectionOne from './sections/SectionOne';
+import SectionTwo from './sections/SectionTwo';
+import SectionThree from './sections/SectionThree';
+import Team from './Team'
+import Footer from './Footer'
 
 const Home = () => {
 
