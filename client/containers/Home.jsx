@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import SectionOne from './sections/SectionOne';
-import SectionTwo from './sections/SectionTwo';
-import SectionThree from './sections/SectionThree';
-import Team from './Team'
-import Footer from './Footer'
+import SectionOne from '../components/sections/SectionOne';
+import SectionTwo from '../components/sections/SectionTwo';
+import SectionThree from '../components/sections/SectionThree';
+import Team from '../components/Team'
+import Footer from '../components/Footer'
 
 const Home = () => {
 
@@ -15,8 +15,6 @@ const Home = () => {
         <SectionThree />
         <Team />
         <Footer />
-
-
     </div>
   );
 }
