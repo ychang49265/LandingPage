@@ -2,7 +2,7 @@ import React from 'react'
 
 const SectionTwo = () => {
   return (
-    <div>SectionTwo</div>
+    <div>RTConnect abstracts away and simplifies WebRTC for developers</div>
   )
 }
 
