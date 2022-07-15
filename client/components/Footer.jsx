@@ -37,7 +37,7 @@ const Footer = () => {
       >
     </div>
     <div className="text-xs">
-      Website designed by <a
+      Website designed and created by <a
         target="_blank"
         className="text-rose-400">Yoojin Chang and F. Raisa Iftekher</a
       >
