@@ -10,7 +10,9 @@ import RTHeader from '../components/sections/RTHeader.jsx'
 const Home = () => {
 
   return (
-    <div style={{padding: '16px'}} className="home">
+    <div className="home">
+      <div className=' font-body bg-gradient-to-r from-indigo-900 via-sky-800 to-cyan-500'>
+        
         <RTNavBar />
         <SectionOne />
         <SectionTwo />
@@ -35,6 +37,7 @@ const Home = () => {
         /> */}
 
         <Footer />
+        </div>
     </div>
   );
 }
