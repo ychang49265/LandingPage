@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import SectionOne from '../components/sections/SectionOne.jsx';
 import SectionTwo from '../components/sections/SectionTwo.jsx';
 import SectionThree from '../components/sections/SectionThree.jsx';
@@ -12,7 +13,6 @@ const Home = () => {
   return (
     <div className="home">
       <div className=' font-body bg-gradient-to-r from-indigo-900 via-sky-800 to-cyan-500'>
-        
         <RTNavBar />
         <SectionOne />
         <SectionTwo />

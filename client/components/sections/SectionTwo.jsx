@@ -34,7 +34,7 @@ const SectionTwo = () => {
             <h2 className="mb-4 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
               RTConnect abstracts away and simplifies WebRTC for developers
             </h2>
-            <p className="text-base text-white md:text-lg sm:px-4">
+            <p id="Features"className="text-base text-white md:text-lg sm:px-4">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque rem aperiam, eaque ipsa quae.
             </p>
