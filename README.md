@@ -9,16 +9,16 @@ This is the final landing page for Codesmith OSLabs FTRI 9 consisting of YooJin 
 
 [View Website](https://www.rtconnect.org/)
 
-Technologies Used
-React
-JavaScript
-Tailwind CSS
-HTML
-Node.js
-Express
-React Hooks
-React Router
-AWS
+## Technologies Used
+- React
+- JavaScript
+- Tailwind CSS
+- HTML
+- Node.js
+- Express
+- React Hooks
+- React Router
+- AWS
 
 ## <a name="what"/> What is RTConnect?
 
