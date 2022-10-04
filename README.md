@@ -7,7 +7,7 @@
 
 This is the final landing page for Codesmith OSLabs FTRI 9 consisting of YooJin Chang, Raisa Iftekher, Louis Disen, and Anthony King.
 
-[View Website](https://www.rtconnect.org/)
+[www.rtconnect.org](https://www.rtconnect.org/)
 
 ## Technologies Used
 - React
