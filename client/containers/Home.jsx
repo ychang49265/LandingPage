@@ -11,8 +11,9 @@ const Home = () => {
 
   return (
     <div className="home">
-      <div className=' font-body bg-gradient-to-r from-indigo-900 via-sky-800 to-cyan-500'>
-        
+      {/* <div className=' font-body bg-gradient-to-r from-indigo-900 via-sky-800 to-cyan-500'> */}
+        <div class=" font-body bg-zinc-100">
+       
         <RTNavBar />
         <SectionOne />
         <SectionTwo />

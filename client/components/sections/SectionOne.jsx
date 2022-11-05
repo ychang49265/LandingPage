@@ -1,20 +1,20 @@
 import React from 'react'
-import Typed from 'react-typed'
+
 
 const SectionOne = () => {
   return (
 <>
-<div className="flex flex-col mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-  <div className="flex flex-col justify-center items-center w-auto my-24 md:my-48 mx-8 text-center ">
+
+{/* <div className="flex flex-col mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <div className="flex flex-col justify-center items-center w-auto my-24 md:my-48 mx-8 text-center "> */}
 
    {/* <div class="flex flex-col md:flex-row h-full m-12 md:m-24 md:gap-10">
     <div class="w-full md:w-1/2 h-full flex flex-col justify-center"> */}
 
-  <h4 className="max-w-screen-lg mb-6 text-4xl md:text-4xl font-bold leading-none tracking-tight text-white ">
-    <Typed strings={['Quickly and efficiently implement peer to peer video calls with RTConnect']} typeSpeed={220}  loop/>
+
     {/* Quickly and efficiently implement peer to peer video calls with RTConnect */}
-  </h4>
-  <p className="text-base text-white md:text-lg">
+
+  {/* <p className="text-base text-white md:text-lg">
     
   RTConnect is an open-source NPM package that simplifies the implementation of WebRTC.
   </p>
@@ -45,11 +45,31 @@ const SectionOne = () => {
       </div>
     </a>
   </div>
-</div>
+</div> */}
+{/* </div> */}
+<div class="h-[700px] md:h-[750px] pt-2 w-screen text-black shadow-xl">
+  <div class="flex flex-col md:flex-row h-full px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+     <div class="md:text-center md:w-1/2 h-full flex flex-col justify-center max-w-screen-sm sm:text-center sm:mx-auto ">
+       <h2 class="mb-4 font-sans text-4xl  font-bold  tracking-tight text-black sm:text-4xl sm:leading-none "><code class=" text-zinc-700 text-decoration-line: underline decoration-sky-400">RTConnect</code>: An easy-to-use React library to establish Peer-to-Peer Connections</h2>
+      <p class="text-base text-black md:text-lg sm:px-4">RTConnect is a lightweight React component library that allows developers to rapidly implement real time video conferencing/video calling between two peers on different computers.</p>
+      <hr class="w-full my-8 border-gray-300"></hr>
+      
+        <a href="https://www.npmjs.com/package/rtconnect" target="_blank">
+          <button class="self-center w-fit border-2 border-black  mt-1 py-2 px-5 rounded-full hover:ease-in duration-100 hover:text-white hover:bg-red-200 bg-whitetext-gray-800 hover:scale-105 duration-300">Install</button>
+        </a>
+    </div> 
+    <div class="w-full md:w-1/2 h-[350px] md:h-full mb-16 md:py-12 flex flex-col justify-center text-center">
+      <div class="mx-auto lg:max-w-2xl">
+        <div class="relative w-full transition-shadow duration-300 hover:shadow-xl overflow-hidden border rounded-xl shadow-md self-center md:self-auto ">
+          {/* <img src="https://www.rtconnect.org/02f0bf60478e90aebf2d8b712745243e.gif"> */}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 </>
-  )
-}
+  );
+};
 
 export default SectionOne;
 
